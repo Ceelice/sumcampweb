@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "Accid";
+    src: url("accid.ttf");
+}
+
+@font-face {
+    font-family: Bluebery ;
+    src: url("Bluebery.ttf");
+}
+#Intro{
+    padding-top: 2rem;
+}
+.text-justify{
+    text-align:justify;
+}
+.navbar-brand{
+    font-family: Bluebery;
+    letter-spacing: .2rem;
+}
+.col {
+    padding-top: 1rem;
+}
+.clsint{
+    font-size: 4rem;
+    font-family: Accid;
+}
