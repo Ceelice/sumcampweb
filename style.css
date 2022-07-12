@@ -1,17 +1,34 @@
 @font-face{
-    font-family: "Accid";
-    src: url("accid.ttf");
+    font-family: "accidpre";
+    src: url("Accid.ttf");
 }
 
 @font-face {
     font-family: Bluebery ;
     src: url("Bluebery.ttf");
 }
+svg{
+    margin-top: -8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar{
+    position: relative;
+    z-index: 3;
+}
+
 #Intro{
     padding-top: 2rem;
+    background-color: #46dbcc;
+    position: relative;
+    z-index: 2;
 }
 .text-justify{
     text-align:justify;
+}
+.wapes{
+    padding-top: -500p;
 }
 .navbar-brand{
     font-family: Bluebery;
@@ -22,5 +39,5 @@
 }
 .clsint{
     font-size: 4rem;
-    font-family: Accid;
+    font-family: accidpre;
 }
