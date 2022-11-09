@@ -7,6 +7,12 @@
     font-family: Bluebery ;
     src: url("Bluebery.ttf");
 }
+
+@font-face {
+    font-family: Patty ;
+    src: url("Patty.ttf");
+}
+
 svg{
     margin-top: -8rem;
     position: relative;
@@ -19,24 +25,29 @@ svg{
 }
 
 #Intro{
-    padding-top: 2rem;
+    padding-top: 5rem;
     background-color: #46dbcc;
     position: relative;
     z-index: 2;
 }
+
 .text-justify{
     text-align:justify;
 }
+
 .wapes{
     padding-top: -500p;
 }
+
 .navbar-brand{
     font-family: Bluebery;
     letter-spacing: .2rem;
 }
+
 .col {
     padding-top: 1rem;
 }
+
 .clsint{
     font-size: 4rem;
     font-family: accidpre;
